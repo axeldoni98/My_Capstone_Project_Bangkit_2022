@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NutriChild</string>
+    <string name="month_input">Bulan ke</string>
+    <string name="text_tb">TB</string>
+    <string name="text_bb">BB</string>
+    <string name="text_lka">LKA</string>
+    <string name="text_lkd">LKD</string>
+    <string name="text_lkp">LKP</string>
+    <string name="label_btn_edit">Edit</string>
+    <string name="label_cm">cm</string>
+    <string name="label_kg">kg</string>
+    <string name="btn_label_history">Riwayat</string>
+    <string name="hint_nama">Nama</string>
+    <string name="hint_usia">Usia (bulan)</string>
+    <string name="hint_tb">Tinggi Badan (cm)</string>
+    <string name="hint_bb">Berat Badan (kg)</string>
+    <string name="hint_lka">Lingkar Kepala (cm)</string>
+    <string name="hint_lkd">Lingkar Dada (cm)</string>
+    <string name="hint_lkp">Lingkar Perut (cm)</string>
+    <string name="hint_bulan_input">Bulan Input ke</string>
+    <string name="content_desc_btn_input_data">Confirm Input Data</string>
+    <string name="label_btn_restore">Pulihkan</string>
+</resources>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/label_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/month_input"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/input_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            card_view:layout_constraintStart_toEndOf="@+id/label_month"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/label_tb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/label_month"
+            tools:text="@string/text_tb" />
+
+        <TextView
+            android:id="@+id/label_bb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toStartOf="@+id/label_tb"
+            card_view:layout_constraintTop_toBottomOf="@+id/label_tb"
+            tools:text="@string/text_bb" />
+
+        <TextView
+            android:id="@+id/label_lka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toStartOf="@+id/label_bb"
+            card_view:layout_constraintTop_toBottomOf="@+id/label_bb"
+            tools:text="@string/text_lka" />
+
+        <TextView
+            android:id="@+id/label_lkd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toStartOf="@+id/label_lka"
+            card_view:layout_constraintTop_toBottomOf="@+id/label_lka"
+            tools:text="@string/text_lkd" />
+
+        <TextView
+            android:id="@+id/label_lkp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toStartOf="@+id/label_lkd"
+            card_view:layout_constraintTop_toBottomOf="@+id/label_lkd"
+            tools:text="@string/text_lkp" />
+
+        <TextView
+            android:id="@+id/input_tb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toEndOf="@+id/label_tb"
+            card_view:layout_constraintTop_toTopOf="@+id/label_tb"
+            tools:text="50" />
+
+        <TextView
+            android:id="@+id/input_bb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toEndOf="@+id/label_bb"
+            card_view:layout_constraintTop_toTopOf="@+id/label_bb"
+            tools:text="10" />
+
+        <TextView
+            android:id="@+id/input_lka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toStartOf="@+id/input_bb"
+            card_view:layout_constraintTop_toTopOf="@+id/label_lka"
+            tools:text="20" />
+
+        <TextView
+            android:id="@+id/input_lkd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toStartOf="@+id/input_lka"
+            card_view:layout_constraintTop_toTopOf="@+id/label_lkd"
+            tools:text="15" />
+
+        <TextView
+            android:id="@+id/input_lkp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toStartOf="@+id/input_lkd"
+            card_view:layout_constraintTop_toTopOf="@+id/label_lkp"
+            tools:text="13" />
+
+        <TextView
+            android:id="@+id/label_cm_tb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toEndOf="@+id/input_tb"
+            card_view:layout_constraintTop_toTopOf="@+id/input_tb"
+            android:text="@string/label_cm"/>
+
+        <TextView
+            android:id="@+id/label_kg_bb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_kg"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toEndOf="@+id/input_bb"
+            card_view:layout_constraintTop_toBottomOf="@+id/label_cm_tb" />
+
+        <TextView
+            android:id="@+id/label_cm_lka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_cm"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toEndOf="@+id/input_lka"
+            card_view:layout_constraintTop_toBottomOf="@+id/label_kg_bb" />
+
+        <TextView
+            android:id="@+id/label_cm_lkd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_cm"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toEndOf="@+id/input_lkd"
+            card_view:layout_constraintTop_toBottomOf="@+id/label_cm_lka" />
+
+        <TextView
+            android:id="@+id/label_cm_lkp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_cm"
+            android:textSize="18sp"
+            card_view:layout_constraintStart_toEndOf="@+id/input_lkp"
+            card_view:layout_constraintTop_toBottomOf="@+id/label_cm_lkd" />
+
+        <TextView
+            android:id="@+id/result_stunting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NORMAL"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toStartOf="@+id/btn_edit"
+            card_view:layout_constraintStart_toEndOf="@+id/input_month"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_btn_edit"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
